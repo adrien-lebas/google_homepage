@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: arial, sans-serif;
+}
+
+.top ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: right;
+  }
+
+.top ul li {
+  display: inline-block;
+  }
