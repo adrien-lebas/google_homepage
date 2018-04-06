@@ -1,41 +1,61 @@
 <!doctype html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Adrien's Google Homepage
-    </title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Adrien's Google Homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png">
 </head>
+
 <body>
-    <div class="top">
-        <ul>
-            <li>E-mail</li>
-            <li>Images</li>
-            <li>Options</li>
-            <li>Notifications</li>
-            <li>Connexion</li>
-        </ul>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+    <div class="top-navbar">
+      <ul>
+       <li><a href="#">Gmail</a></li>
+       <li><a href="#">Images</a></li>
+       <li><img id="apps-icon" src="https://lh5.googleusercontent.com/FnhsbLzvZuHbMsqpQTjVErIdzFcmRMNPPU2nzJ9FmZA6OW8lnD0cBQTet1EiSi7mKt4TCh9BezgypgI3dspRulyHAGXDlpXcDFxvaW1DtIq1CyAzrqCOrQ5I7qFt4RfeBsvJXj9u" alt="Google Apps Icon"></li>
+       <li><button id="signin-button" type="button" name="button">Sign in</button></li>
+      </ul>
     </div>
-    <div class="middle">
-        <img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo Google">
-        <form>
+
+    <div class="main-content">
+        <img id="googlelogo" src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <br>
+        <div >
+          <form>
             <input type="text" name="" value="">
-        </form>        
+          </form>
+          <br>
+        </div>
         <div>
           <a href="#" class="button">Google Search</a>
           <a href="#" class="button">I'm Feeling Lucky</a>
        </div>
     </div>
-    <div class="bottom">
-        <h2>
-            <h3>France</h3>
-        </h2>
-        <h2>
-            <h3>Publicité</h3>
-            <h3>Entreprise</h3>
-            <h3>A Propos</h3>
-            <h3>Info consommateurs</h3>
-            <h3>Confidentialité</h3>
-            <h3>Conditions</h3>
-            <h3>Paramètres</h3>
-        </h2>
-    </div>
 </body>
+
+
+<footer>
+  <div id="country">France</div>
+  <span id="footer-left">
+     <a href="#">Advertising</a>
+     <a href="#">Business</a>
+     <a href="#">About</a>
+  </span>
+  <span id="footer-right">
+     <a href="#">Privacy</a>
+     <a href="#">Terms</a>
+     <a href="#">Settings</a>
+  </span>
+
+</footer>
+
+</html>
